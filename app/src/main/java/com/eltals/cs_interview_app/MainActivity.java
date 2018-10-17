@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
                         startActivity(intent);
                         break;
-                    default: Toast.makeText(MainActivity.this, "Position " + position,
-                            Toast.LENGTH_SHORT).show();;
+                    default: Toast.makeText(MainActivity.this, "Position " + position, Toast.LENGTH_SHORT).show();
                              break;
                 }
 
